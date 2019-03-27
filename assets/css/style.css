@@ -1,0 +1,102 @@
+/* Begins General Styles */
+body {
+    background-color: #FEFFFF;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerHeader {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.postContainer h3, .postContainer p {
+    text-align: center;
+}
+/* Ends General Styles */
+
+/* Begins Navbar Styles */
+.navbarCustom {
+    background-color: #0CA8D1;
+    height: 60px;
+    color: #FEFFFF;
+    font-weight: bold;
+}
+
+.navbarCustom a {
+   color: #FEFFFF; 
+}
+
+.navbarCustom li a:hover {
+    background-color: #FEFFFF;
+    color: #222629;
+}
+
+.navSpace {
+    padding-top: 20px !important;
+    height: 58px;
+    padding: 15px;
+}
+
+.navImage {
+    height: 29px;
+    width: 29px;
+    margin: 12.5px;
+}
+/* Ends Navbar Styles */
+
+/* Begins Container Styles */
+.postContainer {
+    overflow: hidden;
+    background-color: #0CA8D1;
+    color: #FEFFFF;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 0px !important;
+}
+/* Ends Container Styles */
+
+/* Begins Button Styles */
+.blueButton {
+    background-color: #0CA8D1;
+    color: #FEFFFF;
+}
+
+.blueButton:hover {
+    border-color: #0CA8D1;
+}
+
+.greenButton {
+    background-color: #02DE92;
+    color: #FEFFFF;
+}
+
+.greenButton:hover {
+    border-color: #02DE92;
+}
+
+.redButton {
+    background-color: #E02D21;
+    color: #FEFFFF;
+}
+
+.redButton:hover {
+    border-color: #E02D21;
+}
+
+.blueButton, .redButton, .greenButton {
+    border-radius: 2px;
+    border-width: 2.5px;
+} 
+
+.blueButton, .redButton, .greenButton{
+    border-color: #FEFFFF;
+}
+
+.blueButton:hover, .redButton:hover, .greenButton:hover {
+    background-color: #FEFFFF;
+    font-weight: bold;
+    color: #222629;
+}
+/* Ends Button Styles */
